@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 700px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: rgba(192, 192, 192, 0.486);
+    padding: 40px;
+}
+
+.container h2,
+.container h3 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.container h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.btnBx {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.btnBx input[type="submit"] {
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: -2px -2px black;
+    position: relative;
+    bottom: 0;
+    transition: 0.5s;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btnBx input[type="submit"]:hover {
+    bottom: 10px;
+}
+
+.btnAdd {
+    background-color: seagreen;
+}
+
+.btnReset {
+    background-color: sienna;
+}
+
+.addVisit {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.btnSub {
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: -2px -2px black;
+    cursor: pointer;
+    color: #fff;
+    background-color: skyblue;
+}
